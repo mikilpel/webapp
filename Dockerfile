@@ -1,3 +1,2 @@
 FROM linuxconfig/apache
-COPY ./public-html/ /var/www/html/
-EXPOSE 80
+COPY ./public/ /var/www/html/
